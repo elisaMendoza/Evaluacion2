@@ -61,7 +61,7 @@ window.onload = function(){
         }
             
     }
-
+    //Resetea juego
     document.getElementById("reset").addEventListener("click", () => resetGame())
 
     resetGame=()=>{
@@ -71,7 +71,6 @@ window.onload = function(){
         resultados.innerHTML=""
     }
 
-        
     }
     
     
