@@ -5,9 +5,7 @@ window.onload = function(){
     
     const boton = document.getElementById("jugar")
     boton.addEventListener("click", () => jugar())
-    //boton.onclick= () => cantidad(entrada.value) //función sin parámetro con arrow con funcion "cantidad" dentro
     
-
     jugar=()=>{
         const inputs= Array.from(document.querySelectorAll("input"))
         const resultados= document.getElementById('resultados')
